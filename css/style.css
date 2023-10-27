@@ -1,38 +1,98 @@
 :root {
     --background-color: rgb(246, 246, 246);
+    --menu-color: rgb(41, 41, 41);
+    --botton-color-green: rgb(37,162,90);
+    --botton-color-red: rgb(174, 25, 25);
+    --float-box: rgb(255, 255, 255);
+    --text-header: rgb(238, 238, 238);
+    --content-box: rgb(237, 237, 237);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--background-color);
 }
 
 header {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    background: rgb(0, 0, 0);
-    color: #fff;
-    position: absolute;
+    display: flex;
+    justify-content: center; /*trocar para space-between quando for inserir os outros elementos*/
+    background-color: var(--menu-color);
+    color: var(--float-box);
     width: 100%;
-    height: 50px;
-    top: 0;
-    }
-
-    header {
-    display: flexbox;
-    justify-content: space-between;
-    padding: 1rem;
-    }
-    input[type=submit] {
-        width: 100%;
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-    }
-#esqueci-senha{
-    color: rgb(37, 162, 90);
-    font-size: 13px;
+    font-size: 1.25rem;
+    font-style: bold;
 }
-#nao-possui-cadastro{
-    color: #4CAF50;
-    font-size: 13px;
 
+a {
+ text-decoration: none;    
+}
+
+.Topo-login{
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--botton-color-green);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Login {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+#formulario{
+    width: 189px;
+    color: var(--botton-color-green);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-right: 8rem;
+
+}
+#campo_email{
+    display: flex;
+    width: 650px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+
+}
+#campo_senha{   
+    display: flex;
+    width: 650px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+}
+input[type=submit] {
+    color: #FFF;
+    display: flex;
+    width: 364px;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #25A25A;
 }
