@@ -1,0 +1,38 @@
+:root {
+    --background-color: rgb(246, 246, 246);
+}
+
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: rgb(0, 0, 0);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    }
+
+    header {
+    display: flexbox;
+    justify-content: space-between;
+    padding: 1rem;
+    }
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+    }
+#esqueci-senha{
+    color: rgb(37, 162, 90);
+    font-size: 13px;
+}
+#nao-possui-cadastro{
+    color: #4CAF50;
+    font-size: 13px;
+
+}
