@@ -50,7 +50,7 @@ a {
 .Login {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     min-width: 36rem;
 }
 #formulario{
@@ -94,4 +94,8 @@ input[type=submit] {
     background: var(--botton-color-green);
     margin-bottom: 1.5rem; /*aqui da espaço*/
     margin-top: 1.5rem; /*aqui da espaço*/
+}
+#passkey{
+    display: flex; justify-content: right;
+
 }
