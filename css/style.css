@@ -33,7 +33,7 @@ header {
 }
 
 a {
- text-decoration: none;    
+ text-decoration: none;
 }
 
 .Topo-login{
@@ -49,8 +49,9 @@ a {
 }
 .Login {
     display: flex;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
+    min-width: 36rem;
 }
 #formulario{
     width: 189px;
@@ -60,12 +61,8 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-top: 1rem;
-    margin-right: 8rem;
-
 }
 #campo_email{
-    display: flex;
     width: 650px;
     padding: 10px;
     justify-content: center;
@@ -74,25 +71,27 @@ a {
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.50);
     background: #FFF;
-
+    margin-bottom: 1.5rem; /*aqui da espaço*/
 }
 #campo_senha{   
-    display: flex;
     width: 650px;
     padding: 10px;
     gap: 10px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.50);
     background: #FFF;
+    margin-bottom: 1.5rem; /*aqui da espaço*/
 }
+
 input[type=submit] {
     color: #FFF;
-    display: flex;
     width: 364px;
     padding: 5px 0px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 5px;
-    background: #25A25A;
+    background: var(--botton-color-green);
+    margin-bottom: 1.5rem; /*aqui da espaço*/
+    margin-top: 1.5rem; /*aqui da espaço*/
 }
