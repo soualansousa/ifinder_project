@@ -49,8 +49,8 @@ a {
 }
 .Login {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    text-align: left;
     min-width: 36rem;
 }
 #formulario{
@@ -96,5 +96,6 @@ input[type=submit] {
     margin-top: 1.5rem; /*aqui da espaço*/
 }
 #passkey{
-    display: flex; justify-content: right;
+    display: flex;
+    justify-content: right;
 }
