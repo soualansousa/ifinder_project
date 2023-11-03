@@ -33,69 +33,70 @@ header {
 }
 
 a {
- text-decoration: none;
+    text-decoration: none;
 }
 
 .Topo-login{
-    flex: 1 0 0;
-    align-self: stretch;
-    color: var(--botton-color-green);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.Login {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    min-width: 36rem;
-}
-#formulario{
-    width: 189px;
     color: var(--botton-color-green);
     text-align: center;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-#campo_email{
-    width: 650px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.50);
-    background: #FFF;
-    margin-bottom: 1.5rem; /*aqui da espaço*/
-}
-#campo_senha{   
-    width: 650px;
-    padding: 10px;
-    gap: 10px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.50);
-    background: #FFF;
-    margin-bottom: 1.5rem; /*aqui da espaço*/
+    font-size: 3.5rem;
 }
 
-input[type=submit] {
-    color: #FFF;
-    width: 364px;
-    padding: 5px 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 5px;
-    background: var(--botton-color-green);
-    margin-bottom: 1.5rem; /*aqui da espaço*/
-    margin-top: 1.5rem; /*aqui da espaço*/
-}
-#passkey{
+.display-menu{
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
+}
+
+.Login {
+    display: flex;
+    /* width: 35rem; */
+    min-width: 37.5rem;
+    max-width: 60rem;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.passkey{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 40rem;
+}
+
+.formulario{
+    width: 19rem;
+    color: var(--botton-color-green);
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+#campo_email{
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--menu-color);
+    background: #FFF;
+    margin-bottom: 1.5rem;
+}
+#campo_senha{   
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--menu-color);
+    background: #FFF;
+    margin-bottom: 1.5rem;
+}
+
+.botao-enviar{
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: var(--botton-color-green);
+    color: #FFF;
+    margin: 1.5rem 0;
+    cursor: pointer;
+    border: 0.2rem solid var(--botton-color-green);
 }
