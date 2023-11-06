@@ -89,6 +89,25 @@ a {
     background: #FFF;
     margin-bottom: 1.5rem;
 }
+#campo_email_confirmar{
+    width: 518px;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--menu-color);
+    background: #FFF;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center; 
+}
+#campo_senha_confirmar{   
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--menu-color);
+    background: #FFF;
+    margin-bottom: 1.5rem;
+}
 
 .botao-enviar{
     padding: 1rem;
