@@ -49,7 +49,7 @@ a {
     justify-content: space-around;
 }
 
-.Login {
+.login {
     display: flex;
     /* width: 35rem; */
     min-width: 37.5rem;
