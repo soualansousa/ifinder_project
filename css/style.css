@@ -35,39 +35,6 @@ header {
 a {
     text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
-    .botao-formulario{
-        width: 25.3rem;
-        padding: 1rem;
-        gap: 1rem;
-        border-radius: 0.5rem;
-        border: 0.2rem solid var(--menu-color);
-        background: #FFF;
-        margin-bottom: 1.5rem;
-        justify-content: center;
-        align-items: center; 
-    }
-    .botao-enviar{
-        width: 25.3rem;
-        padding: 1rem;
-        gap: 1rem;
-        border-radius: 0.5rem;
-        background: var(--botton-color-green);
-        color: #FFF;
-        margin: 1.5rem 0;
-        cursor: pointer;
-        border: 0.2rem solid var(--botton-color-green);
-    }
-    .topo-login{
-        width: 25.3rem;
-        display: flex;
-        flex-direction: column;
-        color: var(--botton-color-green);
-        text-align: center;
-        font-size: 3.5rem;
-    }
-
-}
 
 .topo-login{
     display: flex;
@@ -117,6 +84,40 @@ a {
     justify-content: center;
     align-items: center; 
 }
+@media only screen and (max-width: 600px) {
+    .botao-formulario{
+        width: 25.3rem;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 0.5rem;
+        border: 0.2rem solid var(--menu-color);
+        background: #FFF;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+        align-items: center; 
+    }
+    .botao-enviar{
+        width: 25.3rem;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 0.5rem;
+        background: var(--botton-color-green);
+        color: #FFF;
+        margin: 1.5rem 0;
+        cursor: pointer;
+        border: 0.2rem solid var(--botton-color-green);
+    }
+    .topo-login{
+        width: 25.3rem;
+        display: flex;
+        flex-direction: column;
+        color: var(--botton-color-green);
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+}
+
 .botao-formulario-mobile{
     width: 25.3rem;
     padding: 1rem;
