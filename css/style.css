@@ -36,7 +36,7 @@ a {
     text-decoration: none;
 }
 
-.Topo-login{
+.topo-login{
     display: flex;
     flex-direction: column;
     color: var(--botton-color-green);
@@ -49,7 +49,7 @@ a {
     justify-content: space-around;
 }
 
-.Login {
+.login {
     display: flex;
     /* width: 35rem; */
     min-width: 37.5rem;
@@ -73,7 +73,7 @@ a {
     text-align: center;
     
 }
-#campo_email{
+#campo-email{
     padding: 1rem;
     gap: 1rem;
     border-radius: 0.5rem;
@@ -81,7 +81,7 @@ a {
     background: #FFF;
     margin-bottom: 1.5rem;
 }
-#campo_senha{   
+#campo-senha{   
     padding: 1rem;
     gap: 1rem;
     border-radius: 0.5rem;
@@ -89,7 +89,7 @@ a {
     background: #FFF;
     margin-bottom: 1.5rem;
 }
-#campo_email_confirmar{
+#campo-email-confirmar{
     width: 518px;
     padding: 1rem;
     gap: 1rem;
@@ -100,7 +100,7 @@ a {
     justify-content: center;
     align-items: center; 
 }
-#campo_senha_confirmar{   
+#campo-senha-confirmar{   
     padding: 1rem;
     gap: 1rem;
     border-radius: 0.5rem;
