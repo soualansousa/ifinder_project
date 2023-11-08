@@ -116,19 +116,6 @@ a {
         cursor: pointer;
         border: 0.2rem solid var(--botton-color-green);
 }
-
-.botao-formulario-mobile{
-    width: 25.3rem;
-    padding: 1rem;
-    gap: 1rem;
-    border-radius: 0.5rem;
-    border: 0.2rem solid var(--menu-color);
-    background: #FFF;
-    margin-bottom: 1.5rem;
-    justify-content: center;
-    align-items: center; 
-}
-
 .botao-enviar{
     padding: 1rem;
     gap: 1rem;
