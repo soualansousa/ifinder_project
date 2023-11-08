@@ -59,7 +59,7 @@ a {
     margin: 1rem;
 }
 
-.passkey{
+.icon-login{
     display: flex;
     flex-direction: column;
     width: 40rem;
@@ -73,7 +73,7 @@ a {
     text-align: center;
     
 }
-.button-form{
+.butao-formulario{
     width: 518px;
     padding: 1rem;
     gap: 1rem;
