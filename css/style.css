@@ -25,7 +25,7 @@ body {
 
 header {
     display: flex;
-    justify-content: center; /*trocar para space-between quando for inserir os outros elementos*/
+    justify-content: space-around; /*trocar para space-between quando for inserir os outros elementos*/
     background-color: var(--menu-color);
     color: var(--float-box);
     width: 100%;
@@ -76,10 +76,15 @@ a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
-.material-symbols-outlined{
+.logo-menu{
     font-size: 3.5rem;
     display: flex;
     width: auto;
+}
+.nav-menu-logout{
+    display: flex;
+    justify-content: right;
+    font-size: 3rem;
 }
 .corzinha {
     color: var(--menu-color);
@@ -264,6 +269,8 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
     color: var(--botton-color-green);
+    font-size: 30px;
+    color: green;
     font-weight: bold;
     text-align: center;
 }
@@ -277,9 +284,9 @@ a {
 .voltar-menu{
     background-color: green;
     color: white;
-    padding: 20px 50px;
+    padding: 20px 30px;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
