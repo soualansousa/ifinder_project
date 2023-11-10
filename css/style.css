@@ -228,3 +228,31 @@ a {
 .nao:hover, .sim:hover{
     opacity: 0.5;
 }
+
+.objeto-cadastrado{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-voltar-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.voltar-menu{
+    background-color: green;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
