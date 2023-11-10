@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,30 +13,29 @@
     <header>
         <h1>IFinder</h1>
     </header>
-    <br><br>
     <section>
-        <!-- <div class="login"> -->
             <h2 class="topo-login">Login</h2>
-            <form action="get">
-                <div class="display-menu-formulario">
-                    <label for="campo-email"></label> <br>
-                    <input class="botao-formulario" id="campo-email" type="email" placeholder="Digite um email" required>
-                    <label for="campo-senha"></label> <br>
-                    <input class="botao-formulario" id="campo-senha" type="password" placeholder="Digite uma senha" required>
-                </div>
-                <br>
-                <div class="display-menu"> <!-- menus antes do send -->
-                    <a class="formulario" href="">Esqueci a senha</a>
-                    <a class="formulario" href="/cadastro.html">Não Possui cadastro?</a>
-                </div>
-                <br>
-                <input class="botao-enviar" type="submit" value="Entrar">
-                <div class="display-menu">
-                    <a class="formulario" href="/login-adm.html">Entrar como Administrador</a>
-                </div>
+            <form action="/home.html">
+                <fieldset class="display-menu-formulario" style="border: none;">
+                    <div>
+                        <label for="campo-email"></label> <br>
+                        <input class="botao-formulario" id="campo-email" type="email" placeholder="Digite um email" required>
+                        <label for="campo-senha"></label> <br>
+                        <input class="botao-formulario" id="campo-senha" type="password" placeholder="Digite uma senha" required>
+                    </div>
+                    <div class="display-menu"> <!-- menus antes do send -->
+                        <a class="formulario" href="">Esqueci a senha</a>
+                        <a class="formulario" href="/cadastro.html">Não possui cadastro?</a>
+                    </div>
+                    <div>
+                        <input class="botao-enviar" type="submit" value="Entrar">
+                    </div>
+                    <div class="display-menu">
+                        <a class="formulario" href="/login-adm.html">Entrar como Administrador</a>
+                    </div>
+                </fieldset>
             </form>
-        <!-- </div> -->
-        <!-- <img class="passkey" src="/img/passkey.png"
+        <!-- <img class="icon-login" src="/img/passkey.png"
             alt="Um ícone de um usuário com uma chave para sinalizar que essa tela é para inserir as informações e fazer login no site"> -->
     </section>
 

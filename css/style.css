@@ -1,6 +1,7 @@
 :root {
     --background-color: rgb(246, 246, 246);
     --menu-color: rgb(41, 41, 41);
+    --menu-color-50: rgba(41, 41, 41,0.50);
     --botton-color-green: rgb(37,162,90);
     --botton-color-red: rgb(174, 25, 25);
     --float-box: rgb(255, 255, 255);
@@ -34,35 +35,44 @@ header {
 
 a {
     text-decoration: none;
+    color: var(--botton-color-green);
 }
 
 .topo-login{
     display: flex;
-    flex-direction: column;
     color: var(--botton-color-green);
-    text-align: center;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 2.5rem;
     font-size: 3.5rem;
 }
 
 .display-menu{
     display: flex;
     justify-content: space-around;
+    min-width: 26rem;
+    font-size: 1.2rem;
 }
 
 .display-menu-formulario {
     display: grid;
     justify-content: center;
+    justify-items: center;
     min-width: 26rem;
+    border: none;
 }
 
-.login {
-    display: flex;
-    /* width: 35rem; */
-    min-width: 37.5rem;
-    max-width: 60rem;
-    justify-content:space-around;
-    flex-direction: column;
-    margin: 1rem;
+.display-menu-formulario .botoes-home {
+    color: var(--Ttulo-2, #292929);
+    margin: 1.3rem;
+    padding: 1rem;
+    width: 51.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .icon-login{
@@ -73,48 +83,87 @@ a {
 }
 
 .formulario{
-    width: 19rem;
-    color: var(--botton-color-green);
+    margin: 0 1rem;
+    max-width: 19rem;
     font-size: 1.5rem;
     text-align: center;
     
 }
 .botao-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch;
     width: 51.8rem;
     padding: 1rem;
     gap: 1rem;
     border-radius: 0.5rem;
-    border: 0.2rem solid var(--menu-color);
+    border: 0.2rem solid var(--menu-color-50);
     background: #FFF;
     margin-bottom: 1.5rem;
 }
-@media only screen and (max-width: 600px) {
+
+.botao-enviar{
+    width: 51.8rem;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--botton-color-green);
+    background: var(--botton-color-green);
+    color: var(--background-color);
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+
+.botao-enviar:hover{
+    opacity: 0.8;
+    background: var(--botton-color-green);
+    color: var(--background-color);
+}
+
+@media (max-width: 599px) {
     .topo-login {
         font-size: 2.5rem;
         margin-bottom: 1rem;
     }
     
     .botao-formulario{
-        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 26rem;
         padding: 1rem;
         gap: 1rem;
         border-radius: 0.5rem;
-        border: 0.2rem solid var(--menu-color);
+        border: 0.2rem solid var(--menu-color-50);
         background: #FFF;
-        margin-bottom: 1.5rem; 
+        margin-bottom: 1.5rem;
     }
+
     .botao-enviar{
         width: 26rem;
         padding: 1rem;
         gap: 1rem;
         border-radius: 0.5rem;
-        background: var(--botton-color-green);
-        color: #FFF;
-        margin: 1.5rem 0;
-        cursor: pointer;
         border: 0.2rem solid var(--botton-color-green);
+        background: var(--botton-color-green);
+        color: var(--background-color);
+        margin-bottom: 1.5rem;
+    }
+    .display-menu-formulario .botoes-home {
+        width: 26rem;
+    }
+    .menu-home a{
+        color: var(--menu-color);
+        text-align: center;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 0.3125rem;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
 }
@@ -178,4 +227,5 @@ a {
 
 .Nao:hover, .Sim:hover{
     opacity: 0.5;
+}
 }
