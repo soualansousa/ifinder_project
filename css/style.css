@@ -63,16 +63,28 @@ a {
 }
 
 .display-menu-formulario .botoes-home {
-    color: var(--Ttulo-2, #292929);
+    color: var(--menu-color);
+    display: flex;
+    flex-direction: row;
     margin: 1.3rem;
-    padding: 1rem;
+    padding: 0.8rem;
     width: 51.8rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     border-radius: 0.3125rem;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+}
+.material-symbols-outlined{
+    font-size: 3.5rem;
+    display: flex;
+    width: auto;
+}
+.corzinha {
+    color: var(--menu-color);
+    display: flex;
+    padding: inherit;
 }
 
 .icon-login{
@@ -166,4 +178,25 @@ a {
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
+}.botao-enviar{
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: var(--botton-color-green);
+    color: #FFF;
+    margin: 1.5rem 0;
+    cursor: pointer;
+    border: 0.2rem solid var(--botton-color-green);
+}
+
+.botao-enviar:hover{
+    opacity: 0.8;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: var(--botton-color-green);
+    color: rgb(17, 17, 17);
+    margin: 1.5rem 0;
+    cursor: pointer;
+    border: 0.2rem solid var(--botton-color-green);
 }
