@@ -57,6 +57,7 @@ a {
 .display-menu-formulario {
     display: grid;
     justify-content: center;
+    justify-items: center;
     min-width: 26rem;
     border: none;
 }
@@ -161,6 +162,9 @@ a {
     }
     
     .botao-formulario{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 26rem;
         padding: 1rem;
         gap: 1rem;
