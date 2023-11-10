@@ -262,7 +262,7 @@ a {
     align-items: center;
     margin-top: 220px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 45px;
+    font-size: 30px;
     color: green;
     font-weight: bold;
     text-align: center;
@@ -277,9 +277,9 @@ a {
 .voltar-menu{
     background-color: green;
     color: white;
-    padding: 20px 50px;
+    padding: 20px 30px;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
