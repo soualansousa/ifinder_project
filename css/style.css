@@ -225,6 +225,6 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Nao:hover, .Sim:hover{
+.nao:hover, .sim:hover{
     opacity: 0.5;
 }
