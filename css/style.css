@@ -263,7 +263,7 @@ a {
     margin-top: 220px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
-    color: green;
+    color: var(--botton-color-green);
     font-weight: bold;
     text-align: center;
 }
