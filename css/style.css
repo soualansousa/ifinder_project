@@ -140,3 +140,42 @@ a {
     cursor: pointer;
     border: 0.2rem solid var(--botton-color-green);
 }
+
+.sair-IFinder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Nao{
+    background-color: red;
+    color: white;
+    padding: 35px 50px;
+    margin: 35px;
+    border-radius: 20px;    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Sim{
+    background-color: green;
+    color: white;
+    padding: 35px 50px;
+    margin: 35px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Nao:hover, .Sim:hover{
+    background-color: rgb(0, 0, 0);
+}
