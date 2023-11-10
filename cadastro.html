@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>IFinder-Cadastro</title>
+    <title>Cadastro no IFinder</title>
 </head>
+
 <body>
     <header>
         <h1>IFinder</h1>
     </header>
-    <br><br>
-    <section class="display-menu">
-        <div class="cadastro">
-            <h2 class="topo-login">Cadastro</h2>
-            <form action="get" class="login">
-                <label for="campo-email"></label> <br>
-                <input class="botao-formulario" id="campo-email" type="email" placeholder="Digite seu email" required>
-                <label for="campo-email"></label> <br>
-                <input class="botao-formulario" id="campo-email-confirmar" type="email" placeholder="Confirme seu email" required>
-                <label for="campo-senha"></label> <br>
-                <input class="botao-formulario" id="campo-senha" type="password" placeholder="Digite a sua senha" required>
-                <label for="campo-senha"></label> <br>
-                <input class="botao-formulario" id="campo-senha-confirmar" type="password" placeholder="Confirme sua senha" required>
-                <br>
-                <input class=" botao-enviar" type="submit" value="Cadastrar">
-            </form>
-        </div>
+    <section>
+        <h2 class="topo-login">Cadastro</h2>
+        <form action="/login.html">
+            <fieldset class="display-menu-formulario">
+                <div>
+                    <label for="campo-email"></label> <br>
+                    <input class="botao-formulario" id="campo-email" type="email" placeholder="Digite seu email"
+                        required>
+                    <label for="campo-email"></label> <br>
+                    <input class="botao-formulario" id="campo-email-confirmar" type="email"
+                        placeholder="Confirme seu email" required>
+                    <label for="campo-senha"></label> <br>
+                    <input class="botao-formulario" id="campo-senha" type="password" placeholder="Digite a sua senha"
+                        required>
+                    <label for="campo-senha"></label> <br>
+                    <input class="botao-formulario" id="campo-senha-confirmar" type="password"
+                        placeholder="Confirme sua senha" required>
+                </div>
+                <div>
+                    <input class="botao-enviar" type="submit" value="Entrar">
+                </div>
+            </fieldset>
+        </form>
     </section>
 
-    
 </body>
+
 </html>
