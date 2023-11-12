@@ -86,6 +86,11 @@ a {
     justify-content: right;
     font-size: 3rem;
 }
+.nav-menu-add{
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+}
 .corzinha {
     color: var(--menu-color);
     display: flex;
