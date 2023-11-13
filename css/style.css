@@ -25,7 +25,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around; /*trocar para space-between quando for inserir os outros elementos*/
+    justify-content: space-between; /*trocar para space-between quando for inserir os outros elementos*/
     background-color: var(--menu-color);
     color: var(--float-box);
     width: 100%;
