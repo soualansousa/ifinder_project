@@ -209,12 +209,6 @@ textarea {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.button-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-}
 
 .forma-botao {
     color: white;
@@ -222,35 +216,6 @@ textarea {
     margin: 2rem;
     border-radius: 2rem;    
     font-size: 1.5rem;
-}
-
-.nao{
-    background-color: var(--botton-color-red);
-}
-
-.sim{
-    background-color: var(--botton-color-green)
-}
-
-.nao:hover, .sim:hover{
-    opacity: 0.5;
-}
-
-.objeto-cadastrado{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margter;
-}
-
-.button-voltar-menuin-top: 220px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 45px;
-    color: var(--botton-color-green);
-    font-size: 30px;
-    color: green;
-    font-weight: bold;
-    text-align: center;
 }
 
 .button-voltar-menu{
