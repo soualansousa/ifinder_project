@@ -70,6 +70,8 @@ a {
     justify-items: center;
     min-width: 26rem;
     border: none;
+    align-items: center;
+    border-radius: 5px;
 }
 
 .display-menu-formulario .botoes-home {
