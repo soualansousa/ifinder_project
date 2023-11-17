@@ -97,6 +97,7 @@ textarea {
     font-size: 3.5rem;
     display: flex;
     width: auto;
+    align-items: center;
 }
 .nav-menu-logout{
     display: flex;
