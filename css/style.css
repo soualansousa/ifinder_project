@@ -33,6 +33,16 @@ header {
     font-style: bold;
 }
 
+header h1 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--menu-color);
+    color: var(--float-box);
+    width: 100%;
+    font-size: 1.25rem;
+    font-style: bold;
+}
+
 a {
     text-decoration: none;
     color: var(--botton-color-green);
