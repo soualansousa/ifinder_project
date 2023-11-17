@@ -42,7 +42,8 @@ a {
     display: flex;
     color: var(--botton-color-green);
     justify-content: center;
-    margin-top: 10rem;
+    text-align: center;
+    margin: 10rem 1rem 0 1rem;
     margin-bottom: 2.5rem;
     font-size: 3.5rem;
 }
@@ -210,7 +211,7 @@ a {
     padding: 1rem;
     gap: 1rem;
     border-radius: 0.5rem;
-    background: var(--botton-color-green);
+    background: var(--bot0pxton-color-green);
     color: rgb(17, 17, 17);
     margin: 1.5rem 0;
     cursor: pointer;
@@ -219,10 +220,11 @@ a {
 
 .sair-IFinder{
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
-    font-size: 35px;
+    font-size: 2.8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -230,26 +232,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
-.nao{
-    background-color: red;
+
+.forma-botao {
     color: white;
-    padding: 35px 50px;
-    margin: 35px;
-    border-radius: 20px;    
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    padding: 1rem 4rem;
+    margin: 2rem;
+    border-radius: 2rem;    
+    font-size: 1.5rem;
+}
+
+.nao{
+    background-color: var(--botton-color-red);
 }
 
 .sim{
-    background-color: green;
-    color: white;
-    padding: 35px 50px;
-    margin: 35px;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--botton-color-green)
 }
 
 .nao:hover, .sim:hover{
