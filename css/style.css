@@ -91,7 +91,7 @@ a {
     justify-content: left;
     font-size: 3rem;
 }
-.corzinha {
+.cor-texto {
     color: var(--menu-color);
     display: flex;
     padding: inherit;
