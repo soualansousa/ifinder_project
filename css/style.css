@@ -25,7 +25,7 @@ body {
 
 header {
     display: flex;
-    justify-content: center; /*trocar para space-between quando for inserir os outros elementos*/
+    justify-content: space-between; /*trocar para space-between quando for inserir os outros elementos*/
     background-color: var(--menu-color);
     color: var(--float-box);
     width: 100%;
@@ -36,6 +36,16 @@ header {
 a {
     text-decoration: none;
     color: var(--botton-color-green);
+}
+
+.top-sem-icon {
+    display: flex;
+    justify-content: center;
+    background-color: var(--menu-color);
+    color: var(--float-box);
+    width: 100%;
+    font-size: 1.25rem;
+    font-style: bold;
 }
 
 .topo-login{
@@ -61,6 +71,8 @@ a {
     justify-items: center;
     min-width: 26rem;
     border: none;
+    align-items: center;
+    border-radius: 5px;
 }
 
 .display-menu-formulario .botoes-home {
@@ -77,12 +89,22 @@ a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
-.material-symbols-outlined{
+.logo-menu{
     font-size: 3.5rem;
     display: flex;
     width: auto;
 }
-.corzinha {
+.nav-menu-logout{
+    display: flex;
+    justify-content: right;
+    font-size: 3rem;
+}
+.nav-menu-add{
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+}
+.cor-texto {
     color: var(--menu-color);
     display: flex;
     padding: inherit;
@@ -261,6 +283,8 @@ a {
     align-items: center;
     margin-top: 220px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: var(--botton-color-green);
     font-size: 30px;
     color: green;
     font-weight: bold;
