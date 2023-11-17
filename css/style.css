@@ -33,7 +33,12 @@ header {
     font-style: bold;
 }
 
-header h1 {
+a {
+    text-decoration: none;
+    color: var(--botton-color-green);
+}
+
+.top-sem-icon {
     display: flex;
     justify-content: center;
     background-color: var(--menu-color);
@@ -41,11 +46,6 @@ header h1 {
     width: 100%;
     font-size: 1.25rem;
     font-style: bold;
-}
-
-a {
-    text-decoration: none;
-    color: var(--botton-color-green);
 }
 
 .topo-login{
